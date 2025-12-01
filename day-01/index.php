@@ -10,7 +10,7 @@ function part2(array $input) {
     return solve($input, part: 2);
 }
 
-function solve($input, $part) {
+function solve(array $input, int $part) {
     $position = 50;
     $zeroes = 0;
 

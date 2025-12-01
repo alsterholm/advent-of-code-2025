@@ -1,6 +1,6 @@
 <?php
 
-require './day-01/index.php';
+require __DIR__ . '/index.php';
 
 $data = array_map(trim(...), file(__DIR__ . '/data.txt'));
 
